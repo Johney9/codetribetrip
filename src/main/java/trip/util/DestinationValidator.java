@@ -28,6 +28,9 @@ public class DestinationValidator implements ConstraintValidator<DestinationExis
                 retVal = true;
             }
         } catch (IOException ioe) {
+            System.err.println(ioe.getLocalizedMessage());
+            System.err.println("Error reading properties/Google api. Program will continue without verifying locations with Google.");
+            retVal = true;
         }
 
         return retVal;
