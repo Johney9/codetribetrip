@@ -1,6 +1,6 @@
 # codetribetrip
 
-place `google-api.properties` with the property `key=yourGoogleApiKey` into src/main/resources to enable google authentication of locations
+place `google-api.properties` with the property `key=yourGoogleApiKey` into `src/main/resources` to enable google authentication of locations
 
 the REST api works by providing an endpoint to which users can connect and access data stored on the server.
 running the server locally, some test would be as follows:
