@@ -10,6 +10,8 @@ running the server locally, some test would be as follows:
 4. curl -X GET localhost:8080/trip/show-future-trips-starting-before?startDate=2018-9-5
 5. curl -X GET "http://localhost:8080/trip/search?destination=taiwan" -H  "accept: */*"
 
-1-3 use Http.POST to create new Trips on the server
-4 shows the sorted future trips
-5 demonstrates search
+1-3. use Http.POST to create new Trips on the server
+
+4. shows the sorted future trips
+
+5. demonstrates search
