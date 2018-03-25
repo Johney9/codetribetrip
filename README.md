@@ -3,7 +3,7 @@
 place `google-api.properties` with the property `key=yourGoogleApiKey` into `src/main/resources` to enable google places validation for destinations. 
 
 the REST api works by providing an endpoint to which users can connect and access data stored on the server.
-running the server locally, some tests would be as follows:
+running the server locally, some examples would be as follows:
 1. curl -X POST -d destination='beograd' -d startDate=2018-3-13 -d endDate=2018-3-26 localhost:8080/trip/create-trip
 2. curl -X POST -d destination='hawaii' -d startDate=2018-7-13 -d endDate=2018-8-26 -d comment='long vacation' localhost:8080/trip/create-trip
 3. curl -X POST -d destination='taiwan' -d startDate=2018-5-5 -d endDate=2018-5-6 -d comment='short stay' localhost:8080/trip/create-trip
